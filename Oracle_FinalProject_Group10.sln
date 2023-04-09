@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle_FinalProject_Group10", "Oracle_FinalProject_Group10\Oracle_FinalProject_Group10.csproj", "{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Debug|x64.ActiveCfg = Debug|x64
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Debug|x64.Build.0 = Debug|x64
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Release|x64.ActiveCfg = Release|x64
+		{DB749AE2-1D48-4B8A-81F2-4B6F64AC73D3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D502BA42-9A05-4281-9240-6AADA53859C6}
+	EndGlobalSection
+EndGlobal
