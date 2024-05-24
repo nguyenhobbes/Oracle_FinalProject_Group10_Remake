@@ -51,9 +51,19 @@ namespace Oracle_FinalProject_Group10
 
                 MessageBox.Show("Connection Successful");
                 Console.WriteLine("Connected to " + host);
-                this.Hide();
-                MainForm mf = new MainForm();
-                mf.ShowDialog();
+                if (isDBA)
+                {
+                    this.Hide();
+                    MainForm mf = new MainForm();
+                    mf.ShowDialog();
+                }
+                else
+                {
+                    this.Hide();
+                    NhanVien nv = new NhanVien();
+                    nv.ShowDialog();
+                }
+               
             }
             catch (Exception ex)
             {

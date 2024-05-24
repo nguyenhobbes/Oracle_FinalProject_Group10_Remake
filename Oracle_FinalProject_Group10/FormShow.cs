@@ -80,7 +80,7 @@ namespace Oracle_FinalProject_Group10
             }
             else if (type == "COLUMN PHANCONG PRIVILEGES")
             {
-                sql = "SELECT PRIVILEGE, GRANTEE, OWNER, TABLE_NAME,column_name FROM DBA_COL_PRIVS WHERE TABLE_NAME = 'PHANCON'";
+                sql = "SELECT PRIVILEGE, GRANTEE, OWNER, TABLE_NAME,column_name FROM DBA_COL_PRIVS WHERE TABLE_NAME = 'PHANCONG'";
             }
             else if (type == "COLUMN DEAN PRIVILEGES")
             {
@@ -100,7 +100,8 @@ namespace Oracle_FinalProject_Group10
 
         }
 
-        private void FormShow_FormClosed(object sender, FormClosedEventArgs e)
+        
+        private void FormShow_FormClosing(object sender, FormClosingEventArgs e)
         {
             try
             {

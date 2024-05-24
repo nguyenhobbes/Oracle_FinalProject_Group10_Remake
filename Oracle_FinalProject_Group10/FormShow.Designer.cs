@@ -113,6 +113,7 @@
             this.Controls.Add(this.buttonReturn);
             this.Name = "FormShow";
             this.Text = "FormShow";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormShow_FormClosing);
             this.Load += new System.EventHandler(this.FormShow_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

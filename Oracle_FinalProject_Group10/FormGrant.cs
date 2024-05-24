@@ -148,6 +148,7 @@ namespace Oracle_FinalProject_Group10
                 cmd.Parameters["priv"].Direction = ParameterDirection.Input;
                 cmd.Parameters["tabl"].Direction = ParameterDirection.Input;
                 cmd.Parameters["wgo"].Direction = ParameterDirection.Input;
+                cmd.Parameters["col"].Direction = ParameterDirection.Input;
 
             }
             else
